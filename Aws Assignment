@@ -1,0 +1,55 @@
+07-July-2022 
+1.What is cloud Computing??
+Cloud computing is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing. Instead of buying, owning, and maintaining physical data centers and servers, you can access technology services, such as computing power, storage, and databases, on an as-needed basis from a cloud provider like Amazon Web Services (AWS). 
+2. What are the different types of cloud based on service and deployment? 
+Different types of cloud computing deployment models are:
+1.	Public cloud 
+2.	Private cloud
+3.	Hybrid cloud
+4.	Community cloud
+5.	Multi-cloud
+3. What is scaling?? 
+Scaling in cloud computing refers to the ability to increase or decrease IT resources as needed to meet changing demand
+4. What are the different types of scaling? Explain
+ Two types of scaling are Vertical scaling and Horizontal scaling.
+Vertical scaling : With vertical scaling, you can add or subtract resources, including memory or storage, within the server, as long as the resources do not exceed the capacity of the machine.
+Horizontal scaling :  Horizontal scaling refers to adding more servers to your network, rather than simply adding resources like with vertical scaling. This method tends to take more time and is more complex, but it allows you to connect servers together, handle traffic efficiently and execute concurrent workloads.
+5. What are the advantages of Cloud?? 
+There are many benefits to moving your business to the cloud:
+•	Reduced IT costs. Moving to cloud computing may reduce the cost of managing and maintaining your IT systems. ...
+•	Scalability
+•	Business continuity.
+•	Collaboration efficiency.
+•	Flexibility of work practices.
+•	Access to automatic updates. 
+
+6.	What is a data center?? 
+A data center is a centralized physical facility where corporate computers, network, storage, and other IT equipment that support business operations live.
+7.	What do you mean multi-tenant?? 
+A multi-tenant cloud is a cloud computing architecture that allows customers to share computing resources in a public or private cloud. Each tenant's data is isolated and remains invisible to other tenants. In a multi-tenant cloud system, users have individualized space for storing their projects and data.
+8.	What do you mean by Pay-as-you-go?? 
+Pay as you go is a billing model in cloud computing where users are charged for the computing resources used by their applications and not for the entire infrastructure cost.
+9.	What do you mean by cloud provider? 
+A cloud service provider is a third-party company offering a cloud-based platform, infrastructure, application, or storage services. companies typically have to pay only for the amount of cloud services they use, as business demands require.
+10. What is cloud service??? 
+      The term "cloud services" refers to a wide range of services delivered on demand to companies and customers over the internet. These services are designed to provide easy, affordable access to applications and resources, without the need for internal infrastructure or hardware.
+11.What are the key characteristics of cloud computing?
+     Here’s a list of the top 10 major characteristics of Cloud Computing:
+1.	Resources Pooling
+2.	On-Demand Self-Service
+3.	Easy Maintenance
+4.	Scalability And Rapid Elasticity
+5.	Economical
+6.	Measured And Reporting Service
+7.	Security
+8.	Automation
+9.	Resiliency And Availability
+10.	Large Network Access
+11.	Work From Any Location
+12.	Multi-Tenancy
+13.	Flexibility
+14.	Service Excellence
+15.	Comfortable Payment Structure
+
+12. What is “X “as a service?
+      Anything as a service (XaaS) describes a general category of services related to cloud computing and remote access. It recognizes the vast number of products, tools, and technologies that are now delivered to users as a service over the internet.
