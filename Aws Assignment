@@ -53,3 +53,36 @@ A cloud service provider is a third-party company offering a cloud-based platfor
 
 12. What is “X “as a service?
       Anything as a service (XaaS) describes a general category of services related to cloud computing and remote access. It recognizes the vast number of products, tools, and technologies that are now delivered to users as a service over the internet.
+
+Day2-Assignment-08-July-2022 
+1. What are the 3 fundamentals of AWS pricing? 
+There are three fundamental drivers of cost with AWS: compute, storage, and outbound data transfer.
+Compute : For compute resources, you pay hourly from the time you launch a resource until the time you terminate it, unless you have made a reservation for which the cost is agreed upon beforehand.
+Storage : 
+Outbound Data Transfer : Outbound data transfer is aggregated across services and then charged at the outbound data transfer rate. This charge appears on the monthly statement as AWS Data Transfer Out.
+2. What are regional and global services? 
+AWS provides a lot of services and these services are either Global, Regional or specific to the Availability Zone and cannot be accessed outside. Most of the AWS managed services are regional based services (except for IAM, Route53, CloudFront etc).
+3. What is a Region? 
+AWS has the concept of a Region, which is a physical location around the world where data centers are located. Each group of logical data centers is called an Availability Zone. Each AWS Region consists of multiple, isolated, and physically separate AZs within a geographic area.
+4. What is an AZ? 
+AZ stands for availability zone. Availability zones are highly available data centers within each AWS region. A region represents a separate geographic area. Each availability zone has independent power, cooling and networking. When an entire availability zone goes down, AWS is able to failover workloads to one of the other zones in the same region
+5. What is points of presence?
+ The POPs are used for both AWS CloudFront to deliver content to end users at high speeds, and Lambda@Edge to run Lambda functions with the lowest possible latency.
+6. What are the different types of cloud based on service and deployment?  
+The different types of cloud computing deployment models are 
+Public, private, community, hybrid.
+Public cloud : Public deployment models in the cloud are perfect for organizations with growing and fluctuating demands. It also makes a great choice for companies with low-security concerns. Thus, you pay a cloud service provider for networking services, compute virtualization & storage available on the public internet. This is also a great delivery model for the teams with development and testing. Its configuration and deployment are quick and easy, making it an ideal choice for test environments.
+Since it is accessible to all, it does not fully protect against cyber-attacks and could lead to vulnerabilities
+
+Private cloud : Companies that look for cost efficiency and greater control over data & resources will find the private cloud a more suitable choice.
+What it means is that it will be integrated with your data center and managed by your IT team. Alternatively, you can also choose to host it externally. When it comes to customization, the private cloud offers bigger opportunities that help meet specific organization’s requirements. 
+With the benefits that you get, the investment will also be larger than the public cloud. Here, you will pay for software, hardware and resources for staff and training.
+Community cloud : The community cloud operates in a way that is similar to the public cloud. There’s just one difference – it allows access to only a specific set of users who share common objectives and use cases. This type of deployment model of cloud computing is managed and hosted internally or by a third-party vendor. However, you can also choose a combination of all three.
+A community cloud is much cheaper than the private & public cloud and provides great performance.
+Hybrid Cloud: A company that has critical data will prefer storing on a private cloud, while less sensitive data can be stored on a public cloud. The hybrid cloud is also frequently used for ‘cloud bursting’. It means, suppose an organization runs an application on-premises, but due to heavy load, they can burst into the public cloud.
+ 
+7. Explain about Global infrastructure components.
+The Global infrastructure components are:
+Availability Zones (AZs) : Availability zones are highly available data centers within each AWS region. There may be one or more data centres within an availability zone separated by some distance.
+Regions : A region represents a separate geographical area which has two or more availability zones under it. These AZ are isolated with each other and are connected with physical cables with each other.
+Edge Locations: Edge locations are AWS data centers designed to deliver services with the lowest latency possible. Amazon has dozens of these data centers spread across the world. They’re closer to users than Regions or Availability Zones, often in major cities, so responses can be fast
