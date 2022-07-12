@@ -1,0 +1,50 @@
+Day3-Assignment-11-July-2022 
+1. Explain the 4 types of support plans. 
+4 types of support plans are : 
+Developer –
+Business- 
+Enterprise-On-Ramp
+Enterprise - 
+2. Explain AWS Pricing Models. 
+i. Pay as you go: In this plan you pay for the amount of storage space or server capacity used by your applications. When you provision a server you’ll be charged for it and you can terminate the server anytime. You can provision a small server in the beginning and increase it over time thus saving expenses.
+ii. Save when you Reserve: In this plan you have an option to reserve the server capacity for a period of 1-3 years. Longer the duration higher will be the discount on pricing as high as 75%. It is cheaper when compared to On-Demand 
+It is available in EC2 and RDS service of AWS.
+iii. Pay less by Using More: If you have many accounts in your company, you can combine them under AWS Organization and go for consolidated billing when you have large volumes of resources being used, you’ll save more on the final billing. 
+Its advantage is you can adapt to business requirements and increase or decrease the resources as per your need.
+3. Explain types of Reserved Instance 
+ Standard RI: It is a type of reserved instance where you can change Availability Zone, instance size and network type.
+Convertible RI : In this type of reserved instance you can perform all the tasks as in Standard RI and on top of it you can also change the family of instance type eg micro macro and medium and also change the operating system from Windows to Linux and you can change the tenancy and payment options as well whether it is monthly or upfront.
+4. Explain 5 Pricing models available for EC2. 
+The 5 pricing models available in EC2 are:
+i.	On-Demand : It is a pricing model where you can provision a server as and when your need arises. You do not have to specify the time duration for which you need the server resources from AWS. This does not offer any discount to customers. You ccan go for this server when you have unpredictable workload.
+ii.	Reserved instance: You have an option to reserve the server instance for 1-3 years. In this plan you get high discount upto 75% since you’re committed to reserving the server for at least 1 year.
+iii.	Spot Instance : This type of instance has lot of discount as it can be taken back by AWS anytime and all the work on the instance will be lost. Whenever there are free resources with AWS they give it to customers as spot instances at very cheap price and they do not keep the servers idle but when they get an On-Demand customer they can remove and give these instances to them.
+It is suitable to those customers who are not bothered about losing their work as they need servers for small period of time for some computational purposes.
+iv.	Dedicated Host: In this instance customers are given the physical server as per their requirement. These are very expensive as entire hardware is dedicated for your needs.
+v.	Dedicated Instances: If you have many accounts in your company, and you need a new account, so a dedicated instance will be created on your dedicated host and provided. The server will not be shared with outside customers.     
+vi.	Saving Plans: It is about commitment to a consistent amount of usage for a long period of time.
+For example if you will be committing to use EC2 and Lambda service for 1 year so you will be billed under saving plans.
+5. What are the different options available to pay for Reserved instances.
+The different options available to pay for RI:
+No upfront payment – There will be no discount under this payment option.
+Partial upfront Payment – There will small discount as per usage.
+All upfront payment – There will be high discount.
+ The services where these payment options are available : EC3 Reserved instances, DynamoDB, ELasticache Reserved Nodes.
+6.Explain about Savings plans.
+ It is flexible pricing model that offers low prices on EC2 and Lambda service. When you commit to a consistent amount of usage over 1 to 3 years, you are given good discount upto 75%.
+Compute saving plans provides the most flexibility and helps to reduce costs highly. It applies to EC2 and Lambda services.
+Ec2 saving plans: Provides low price with high savings when you commit to usage of individual instance in a region.
+7. Explain about Storage pricing.
+        Storage quantity – Data stored on server in per GB basis.
+        S3 standard storage: 
+        first 50TB/month - $0.023/GB
+        Next 450 Tb/month - $0.022/GB
+        Over 500Tb/month - $0.021/GB
+        Pricing also depends on the number of type of requests eg GET          PUT POST COPY, moving data and data transfer out of an s3 region.
+S3 Glacier is a storage type where you keep data for longer period of time as an archive where you do not frequently use the data but store it. Here you are charged for retrieving the data.
+Expedited glacier – 1-5 minutes $0.03/GB
+Standard - 3-5 Hours $0.01/GB 
+Bulk – 5-12 hours $0.0025/GB
+In EBS volume storage for all EBS volume types is charged by amount of Gb provisioned per month.
+Snapshots – based on the amount of space consumed by snapshots. Copying snapshots is charged on amount of data copeied across regions.
+Also outbound data transfer is charged.
